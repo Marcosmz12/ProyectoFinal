@@ -1,6 +1,6 @@
 @font-face{
     font-family: fuente_gamaamli;
-    src: url(/Práctica-final-de-HTML-y-CSS/font-family/GaMaamli-Regular.ttf) format('truetype');
+    src: url(../font-family/GaMaamli-Regular.ttf) format('truetype');
 }
 
 html, body {
