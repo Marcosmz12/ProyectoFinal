@@ -1,0 +1,83 @@
+@font-face{
+    font-family: fuente_gamaamli;
+    src: url(/Práctica-final-de-HTML-y-CSS/font-family/GaMaamli-Regular.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #EE9EB5;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#caja-escudo{
+    text-align: center;
+}
+
+#escudo-dellafuente{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    
+}
+
+#menu{
+    background-color: #EE9EB5;
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#lista{
+    display: inline;
+    color: black;
+    margin-right: 45px ;
+    font-size: 18px;
+    font-family: fuente_gamaamli;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: yellow;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+}
+
+#footer-img{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}

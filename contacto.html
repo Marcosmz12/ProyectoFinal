@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="descripcion" content="DELLAFUENTE FC">
+        <title>DELLAFUENTE FC</title>
+        <link rel="stylesheet" href="css/cabecera-footer.css">
+        <link rel="stylesheet" href="css/tienda.css">
+        
+    </head>
+    <body>
+        <header>
+            <div id="caja-escudo">
+                <img src="imagenes/Dellafuente-removebg-preview.png" alt="Escudo-DellafunetFC" id="escudo-dellafuente">
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li id="lista"><a href="/Práctica-final-de-HTML-y-CSS/inicio.html" class="link">Inicio</a></li>
+                    <li id="lista"><a href="/Práctica-final-de-HTML-y-CSS/lanzamientos.html" class="link">Lanzamientos</a></li>
+                    <li id="lista">Nosotros</li>
+                    <li id="lista"><a href="/Práctica-final-de-HTML-y-CSS/tienda.html" class="link">Tienda</li></a>
+                    <li id="lista"><a href="/Práctica-final-de-HTML-y-CSS/contacto.html" class="link">Contacto</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+    
+                    Nombre:<input type="text" size="50" title="Nombre" name="Su nombre" placeholder="Su nombre"><br>
+                    Correo Electronico:<input type="email" placeholder="usuario@dominio.com" size="40" title="Correo electronico" name="mail" required/>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Queremos saber cosas sobre ti.</legend>
+    
+                    Dinos tu canciones favoritas.<br>
+                    <textarea name="descripcion"></textarea><p>
+    
+                    Cual es tu album favorito.<br>
+                    <input type="radio" name="Albums" value="Torii Yama">Torii Yama
+                    <input type="radio" name="Albums" value="Incursión">Incursión
+                    <input type="radio" name="Albums" value="Lagrimas pa otro dia">Lagrimas pa otro dia
+                    <input type="radio" name="Albums" value="Milagro">Milagro<p>
+    
+                    Cuantos escuchas a Dellafuente.<br>
+                    <input id="i5" type="range" max="7" min="1" value="2" step="1" title="Necesitamos saber este dato para adjudicarte un nivel de adicción" name="adiccion">
+                </fieldset>
+                <input type="submit" name="Enviar" id="boton" value="Enviar">
+            </form>
+        </main>
+
+        <footer>
+            <img srcset="imagenes/dlfc-logo.svg" id="footer-img">
+        </footer>

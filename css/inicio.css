@@ -1,0 +1,48 @@
+@font-face{
+    font-family: fuente_gamaamli;
+    src: url(/Práctica-final-de-HTML-y-CSS/font-family/GaMaamli-Regular.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+#concierto{
+    height: 200px;
+    width: 150px;
+}
+
+#eventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow:  2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+#Lanzamientos{
+    display: flex;
+    flex-direction: column;
+}
+
+#Albums{
+    display: flex;
+    flex-direction: row;
+}
+
+#portada-albums{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}

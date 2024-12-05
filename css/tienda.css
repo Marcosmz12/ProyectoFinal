@@ -1,0 +1,27 @@
+#contenedor-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.Ropa{
+    height: 350px;
+    width: 350px;
+}
+
+#album-caja{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow:  0px 0px 10px grey;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+p{
+    text-align: center;
+}
+
