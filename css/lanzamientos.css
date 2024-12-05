@@ -18,7 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    box-shadow:  0px 0px 30px #fb3480;
+    box-shadow:  0px 0px 30px #fb3480 ;
     border-radius: 10px;
     width: 600px;
     height: 300px;
@@ -48,4 +48,14 @@ main{
     height: 200px;
     width: 200px;
     padding: 5px;
+}
+
+#canciones{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    margin-right: 50px;
 }

@@ -1,3 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 #contenedor-row{
     display: flex;
     flex-direction: row;
