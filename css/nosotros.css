@@ -12,6 +12,16 @@ main{
 #concierto{
     height: 200px;
     width: 150px;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Comienza invisible */
+    }
+    to {
+      opacity: 1; /* Termina completamente visible */
+    }
 }
 
 #eventos{

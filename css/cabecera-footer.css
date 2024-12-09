@@ -73,6 +73,9 @@ main{
 }
 
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: black;
 }
 
@@ -80,4 +83,24 @@ footer{
     margin: 20px;
     height: 100px;
     width: 100px;
+}
+
+#redes-sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+#redes{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    padding-top: 50px;
+}
+
+.p-footer{
+    margin-right: 5px;
+    padding-top: 50px;
+    color: #EE9EB5;
 }
