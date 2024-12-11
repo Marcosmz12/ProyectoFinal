@@ -17,10 +17,10 @@ main{
 
 @keyframes fadeIn {
     from {
-      opacity: 0; /* Comienza invisible */
+      opacity: 0; 
     }
     to {
-      opacity: 1; /* Termina completamente visible */
+      opacity: 1; 
     }
 }
 
